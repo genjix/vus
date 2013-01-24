@@ -86,8 +86,8 @@ Bitcoin and ended up raising $400 in 24 hours.
     ("Mike", "Gogulski", "gogulski.jpg",
      "http://en.wikipedia.org/wiki/Mike_Gogulski",
 """
-Stateless political activist, founder of Free Bradley Manning campaign,
-and Bitcoin developer.
+Stateless political activist, operator of Bitcoin money laundering service,
+founder of Free Bradley Manning campaign, and Bitcoin developer.
 """),
 
     ("Nina", "Paley", "paley.jpg",
@@ -99,7 +99,8 @@ Copying isn't theft!
     ("Mitch", "Altman", "altman.jpg",
      "http://en.wikipedia.org/wiki/Mitch_Altman",
 """
-He invented a device to switch off all televisions.
+He invented a device to switch off televisions and switch on minds.
+Tours the world doing electronics workshops for hackerspaces.
 """),
 
     ("Amir", "Taaki", "taaki.jpg",
