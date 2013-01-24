@@ -66,7 +66,7 @@ a replacement operating system. Stallman ignored them and hacked away
 for 10 years proving them wrong.
 """),
 
-    ("Birgitta", "Jónsdóttir", "jonsdottir.jpg",
+    ("Birgitta", u"Jónsdóttir", "jonsdottir.jpg",
      "http://en.wikipedia.org/wiki/Birgitta_J%C3%B3nsd%C3%B3ttir",
 """
 Politician and activist in Iceland. Iceland suffered heavily during
