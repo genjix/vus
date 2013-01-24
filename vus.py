@@ -47,10 +47,10 @@ class SpeakerView:
             stat[3] = stat_font.render(stat[0] + ":", 1, (0xff, 0xff, 0xff))
 
     def finished(self):
-        if not self.remaining_bio:
-            return True
         if self.timeline < 5000:
             return False
+        if not self.remaining_bio:
+            return True
         return False
 
     def update(self, time):
@@ -76,6 +76,12 @@ class SpeakerView:
     def next_letter(self):
         if not self.remaining_bio:
             return
+        # Strip out links
+        if self.remaining_bio[0] == "<":
+            while self.remaining_bio[0] != ">":
+                self.cycle_remaining_bio()
+            # Strip the > also
+            self.cycle_remaining_bio()
         self.typing_timeline = 0
         # Turn "\n"s into spaces.
         if self.remaining_bio[0] == "\n":
@@ -132,7 +138,7 @@ if __name__ == "__main__":
     life_granularity = 10
 
     pygame.init()
-    screen = pygame.display.set_mode(screen_size)
+    screen = pygame.display.set_mode(screen_size, pygame.FULLSCREEN)
 
     unsystem_font = pygame.font.SysFont("Ubuntu Italic Bold", 60)
     unsystem = unsystem_font.render("unSYSTEM.net (VIENNA 1-3 Nov 2013)",
@@ -158,6 +164,9 @@ if __name__ == "__main__":
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 finished = True
+            elif event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_ESCAPE:
+                    finished = True
         screen.fill((0, 0, 0))
         lifegrid.display(screen)
         speaker.display(screen)
