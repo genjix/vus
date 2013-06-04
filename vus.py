@@ -131,10 +131,10 @@ class LifeGrid:
                     continue
                 pos = (x * self.multp, y * self.multp)
                 size = (self.multp, self.multp)
-                screen.fill((0x0f, 0x0f, 0x0f), (pos, size))
+                screen.fill((0x1f, 0x1f, 0x1f), (pos, size))
 
 if __name__ == "__main__":
-    screen_size = (800, 600)
+    screen_size = (1024, 768)
     life_granularity = 10
 
     pygame.init()
@@ -142,7 +142,7 @@ if __name__ == "__main__":
 
     unsystem_font = pygame.font.SysFont("Ubuntu Italic Bold", 60)
     unsystem = unsystem_font.render("unSYSTEM.net (VIENNA 1-3 Nov 2013)",
-                                    1, (0x2f, 0x1f, 0x1f))
+                                    1, (0x8f, 0x2f, 0x2f))
 
     finished = False
     speaker = SpeakerView(speakers[0])
@@ -171,7 +171,7 @@ if __name__ == "__main__":
         lifegrid.display(screen)
         speaker.display(screen)
         screen.blit(unsystem, (50,
-            screen_size[1] - unsystem_font.get_height() - 40))
+            screen_size[1] - unsystem_font.get_height() - 300))
         pygame.display.flip()
         pygame.time.wait(50)
 

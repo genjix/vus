@@ -22,33 +22,6 @@ eviction</a> was one of London's biggest with
 a climbing team, and over 30 riot police.
 """),
 
-    ("", "Anonymous", "anonymous.jpg",
-     "http://en.wikipedia.org/wiki/Anonymous_%28group%29",
-"""
-We are Anonymous. We are Legion. We do not forgive.
-We do not forget. Expect us.
-"""),
-
-    ("Cody", "Wilson", "wilson.jpg",
-     "http://en.wikipedia.org/wiki/Cody_Wilson",
-"""
-Wired called Cody the <a href="http://www.wired.com/dangerroom/2012/12/most-dangerous-people/?utm_source=dlvr.it&utm_medium=twitter&pid=1696">14th most dangerous person</a> in the world.
-His campaign was closed on IndieGoGo before Cody switched to using
-Bitcoins for fundraising.
-"""),
-
-    ("Frank", "Braun", "braun.jpg",
-     "https://www.youtube.com/watch?v=4r0KaEWa6y0",
-"""
-Privacy extremist.
-"""),
-
-    ("", "Voina", "voina.jpg",
-     "http://en.wikipedia.org/wiki/Voina",
-"""
-Radical activist group from Russia.
-"""),
-
     ("Max", "Keiser", "keiser.jpg",
      "http://en.wikipedia.org/wiki/Max_Keiser",
 """
@@ -57,13 +30,12 @@ Max reports on banking scandals and financial crimes in his TV show
 'currency of the resistance'.
 """),
 
-    ("Richard", "Stallman", "stallman.jpg",
-     "http://en.wikipedia.org/wiki/Richard_Stallman",
+    ("Cody", "Wilson", "wilson.jpg",
+     "http://en.wikipedia.org/wiki/Cody_Wilson",
 """
-Stallman founded the GNU project. We now have free and open-source
-software as the direct descendent. People told him he wouldn't make
-a replacement operating system. Stallman ignored them and hacked away
-for 10 years proving them wrong.
+Wired called Cody the <a href="http://www.wired.com/dangerroom/2012/12/most-dangerous-people/?utm_source=dlvr.it&utm_medium=twitter&pid=1696">14th most dangerous person</a> in the world.
+His campaign was closed on IndieGoGo before Cody switched to using
+Bitcoins for fundraising.
 """),
 
     ("Birgitta", u"Jónsdóttir", "jonsdottir.jpg",
@@ -83,6 +55,47 @@ Tor, and they're big fans of Bitcoin. Rap News started accepting
 Bitcoin and ended up raising $400 in 24 hours.
 """),
 
+    ("Trace", "Mayer", "mayer.jpg",
+     "http://www.crunchbase.com/person/trace-mayer",
+"""
+Trace Mayer is an entrepreneur, investor, and journalist. He holds a degree in Accounting from Brigham Young University, and a law degree
+from California Western School of Law. He is a member of
+the Society of Professional
+Journalists and the San Diego County Bar Association. He operates:
+RunToGold.com, CreditContraction.com and HowToVanish.com
+"""),
+
+    #   ("", "Voina", "voina.jpg",
+    #     "http://en.wikipedia.org/wiki/Voina",
+    #"""
+    #Radical activist group from Russia.
+    #"""),
+
+    ("Frank", "Braun", "braun.jpg",
+     "https://www.youtube.com/watch?v=4r0KaEWa6y0",
+"""
+Privacy extremist.
+"""),
+
+    ("Richard", "Stallman", "stallman.jpg",
+     "http://en.wikipedia.org/wiki/Richard_Stallman",
+"""
+Stallman founded the GNU project which changed the entire software world. We now have free and open-source
+software as the direct descendent. People told him he wouldn't make
+a replacement operating system. Stallman ignored them and hacked away
+for 10 years proving them wrong.
+One of the most legendary hackers ever.
+"""),
+
+    ("Jacob", "Appelbaum", "appelbaum.jpg",
+     "http://en.wikipedia.org/wiki/Jacob_Appelbaum",
+"""
+Close ties to Wikileaks, Tor developer, frequent target of US law
+enforcement agencies and co-founder of
+<a href="http://en.wikipedia.org/wiki/Noisebridge">Noisebridge</a>
+hackerspace with <a href="#Mitch_Altman">Mitch Altman</a>.
+"""),
+
     ("Mike", "Gogulski", "gogulski.jpg",
      "http://en.wikipedia.org/wiki/Mike_Gogulski",
 """
@@ -93,7 +106,7 @@ founder of Free Bradley Manning campaign, and Bitcoin developer.
     ("Nina", "Paley", "paley.jpg",
      "http://en.wikipedia.org/wiki/Nina_Paley",
 """
-Copying isn't theft!
+Copying isn't theft! Nina is an American cartoonist, animator and free culture activist.
 """),
 
     ("Mitch", "Altman", "altman.jpg",
@@ -101,25 +114,41 @@ Copying isn't theft!
 """
 He invented a device to switch off televisions and switch on minds.
 Tours the world doing electronics workshops for hackerspaces.
+Co-founder of
+<a href="http://en.wikipedia.org/wiki/Noisebridge">Noisebridge</a>
+hackerspace.
 """),
 
     ("Amir", "Taaki", "taaki.jpg",
      "http://en.wikipedia.org/wiki/Amir_Taaki",
 """
-Bitcoin developer. The troops are on standby. We're analysing strategic
-intel and awaiting word from troops on the frontline.
+Amir developed the first complete reimplementation of Bitcoin and did
+development on the Bitcoin client Electrum, founded the only
+UK Bitcoin exchange, organised the last 2 Bitcoin conferences,
+and has written for Bitcoin Magazine and other publications.
 """),
 
     ("Denis Roio", '"Jaromil"', "jaromil.jpg",
      "http://en.wikipedia.org/wiki/Jaromil",
 """
-Multimedia hacker. Jaromil's been hacking on Bitcoin lately.
+Jaromil is a free software programmer, media artist and activist. He has made
+significant contributions to the development of multimedia and streaming
+applications on the Linux platform, as well as authoring dyne:bolic Linux
+distribution. He was born in Pescara, Italy, but now lives in Amsterdam.
 """),
 
     ("Amelia", "Andersdotter", "andersdotter.jpg",
      "http://en.wikipedia.org/wiki/Amelia_Andersdotter",
 """
 Mathematics student activist turned EU politician working from the inside.
+Amelia is the second Pirate Party member to take a seat at the European
+Parliament in Brussels. She talks on a range of subjects around internet
+freedom.
+"""),
+
+    ("Jan", "Møller", "moller.jpg",
+     "https://play.google.com/store/apps/details?id=com.miracleas.bitcoin_spinner",
+"""
 """),
 
     ("Luis Henrique", "Fagundes", "fagundes.jpg",
@@ -134,9 +163,15 @@ children an education in his Brazilian schools.
     ("Joerg", "Platzer", "platzer.jpg",
      "http://www.npr.org/2012/06/01/154140277/berlin-restaurant-experiments-with-virtual-currency",
 """
-Joerg has <i>the</i> Bitcoin bar in Berlin. Room77 is a famous restaurant in
-Berlin's prestiguous Kreuzberg. Now shops all along the road are taking
-up Bitcoin.
+Joerg is an early fighter against intellectual property. He's been highly active in Bitcoin, and his restaurant ROOM77, the restaurant at the end of capitalism, accepts Bitcoin.
+"""),
+
+    ("Pavol", "Luptak", "luptak.jpg",
+     "https://www.nethemba.com/",
+"""
+Bitcoin enthusiast & international business advisor. Pavol
+runs his own data security firm
+in Slovakia which leverages Bitcoin in a number of unique and interesting ways to benefit their work.
 """),
 )
 
